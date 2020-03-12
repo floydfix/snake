@@ -2,17 +2,21 @@
 <head> 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>Snake</title>
-	<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="js/snake.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/snake.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  		crossorigin="anonymous"></script>
+  	<script src="js/snake.js"></script>
 </head> 
 	<body>
-		<div id='gameOver' style="position:absolute; top: 0; left: 0;z-index:1000; height: 600px; width: 600px; background-color: rgba(255,255,255,.4); text-align: center;">
-			<button id='startGame'>Start a new game</button>
+		<div id='gameOver'>
+			<p>SNAKE-JS</br>By : Roger Lemmon C2020</br>Click to start a new game</p>
 		</div>
-		<p id='score'>0</p>
-		<canvas id='canvas' height='600' width='600'></canvas> 
+		<div>
+			<label id='scoreLabel'>Score </label>
+			<div id='score'>0</div>
+		</div>
+		</br>
+		<canvas id='canvas' width="600" height="600"></canvas> 
 	</body> 
 </html>

@@ -1,0 +1,28 @@
+div {
+	font-weight: bold;
+}
+#gameOver {
+	position:absolute; 
+	top: 0; 
+	left: 0;
+	z-index:1000; 
+	height: 650px; 
+	width: 650px; 
+	background-color: rgba(255,0,0,.4); 
+	text-align: center;
+}
+#gameOver p {
+	position: absolute; 
+	top: 50%; 
+	left: 38%;
+	margin: 0; 
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#scoreLabel {
+	float: left;
+}
+#score {
+	margin-left: 5px; 
+	float:left;
+}
