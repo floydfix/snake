@@ -169,6 +169,8 @@ $(document).ready(() => {
 		// show the game over screen
 		$('#gameOver').show();
 
+		// reset all of the values
+		
 		// TODO: save high score locally
 		score = 0;
 		level = -1;
@@ -180,6 +182,7 @@ $(document).ready(() => {
 		snakeArray = [[0,0]];
 		direction = DOWN;
 
+		//
 		food = [5, 5];
 	}
 
